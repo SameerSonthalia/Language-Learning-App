@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    background-color: rgb(40 59 73);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 50vw;
+    margin: 5px auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .ntrin {
+    background-color: #ddd;
+  }
+  
+  .plan {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .plan:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    color: #496787;
+  }
+  
+  /* Modal Styles */
+  /* ... (modal styles similar to previous examples) ... */
